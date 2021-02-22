@@ -5,17 +5,23 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="navbar">
+      <div className="App">
         <div className="menu-container">
+
           <div className="menu-icons">
             <Link to="/">
               <i className="fas fa-stream"></i>
             </Link>
-            <i className="fas fa-paste"></i>
+            <i className="fas fa-receipt"></i>
             <Link to="/users">
               <i className="fas fa-users"></i>
             </Link>
           </div>
+
+          <div className="body-container">
+
+          </div>
+
           <div className="navbar-container">
             {/* <ul className="nav-menu">
               <li className="nav-item">
@@ -39,10 +45,8 @@ function Navbar() {
                 </Link>
               </li>
             </ul> */}
-            {/* <div className="box">
-
-            </div> */}
           </div>
+
         </div>
       </div>
     </>
