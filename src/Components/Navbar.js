@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import Cards from "./Cards";
 
 function Navbar({ titleName }) {
   return (
@@ -42,7 +43,7 @@ function Navbar({ titleName }) {
             </ul>
           </div>
           <div className="cards">
-            <div className="cards__item"></div>
+            <Cards />
           </div>
         </div>
       </div>

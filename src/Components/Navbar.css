@@ -64,18 +64,16 @@
   list-style: none;
   justify-content: flex-end;
   height: 189px;
-  width: 1098px;
-  margin-left: 90px;
+  width: 1110px;
+  margin-left: 84px;
 }
 
 .nav__title {
   position: absolute;
   width: 191px;
   height: 59px;
-  left: 248px;
+  left: 240px;
   top: 64px;
-
-  
 }
 
 .nav__item {
@@ -87,7 +85,6 @@
   font-weight: bold;
   font-size: 24px;
   line-height: 26px;
-
 }
 
 .nav__links {
@@ -98,5 +95,6 @@
 .cards {
   border: 3px solid green;
   height: 1499px;
+  
 }
 
