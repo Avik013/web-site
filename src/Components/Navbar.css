@@ -2,10 +2,10 @@
   display: flex;
 }
 .menu__container {
+  /* border: 3px solid black; */
   width: 150px;
   height: 1700px;
   background-color: #ffe4d6;
-  border: 3px solid black;
 }
 
 .menu__icons {
@@ -47,19 +47,19 @@
 }
 
 .body__container {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   height: 1700px;
   width: 1290px;
 }
 
 .navbar__container {
-  border: 3px solid black;
+  /* border: 3px solid black; */
   width: 1284px;
   height: 195px;
 }
 
 .nav__menu {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   display: flex;
   list-style: none;
   justify-content: flex-end;
@@ -93,8 +93,7 @@
 }
 
 .cards {
-  border: 3px solid green;
+  /* border: 3px solid green; */
   height: 1499px;
-  
 }
 

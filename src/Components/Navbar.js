@@ -44,6 +44,7 @@ function Navbar({ titleName }) {
           </div>
           <div className="cards">
             <Cards />
+            
           </div>
         </div>
       </div>
