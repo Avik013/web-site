@@ -25,17 +25,17 @@ function Navbar({ titleName }) {
             <ul className="nav__menu">
               <h1 className="nav__title">{titleName}</h1>
               <li className="nav__item">
-                <Link to="/" className="nav__links">
-                  Popolar
+                <Link to="/popular" className="nav__links">
+                  Popular
                 </Link>
               </li>
               <li className="nav__item">
-                <Link to="/" className="nav__links">
+                <Link to="/favorite" className="nav__links">
                   Favorite
                 </Link>
               </li>
               <li className="nav__item">
-                <Link to="/" className="nav__links">
+                <Link to="/new" className="nav__links">
                   New
                 </Link>
               </li>
