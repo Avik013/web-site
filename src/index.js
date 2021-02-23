@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Courses from "./Pages/Courses/Courses";
-import Users from "./Pages/Users/Users";
+import Users from "./Pages/Customer/Customer";
+import ShopingList from  "./Pages/ShoppingList/ShoppingList";
 import "./index.css";
 
 import App from "./App";
@@ -12,7 +13,8 @@ ReactDOM.render(
     <BrowserRouter>
       <App>
         <Switch>
-          <Route path="/users" component={Users} />
+          <Route path="/shopping-list" component={ShopingList} />
+          <Route path="/customer" component={Users} />
           <Route path="/" component={Courses} />
         </Switch>
       </App>

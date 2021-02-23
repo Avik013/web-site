@@ -2,51 +2,48 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar({ titleName }) {
   return (
     <>
       <div className="App">
-        <div className="menu-container">
-
-          <div className="menu-icons">
+        <div className="menu__container">
+          <div className="menu__icons">
             <Link to="/">
               <i className="fas fa-stream"></i>
             </Link>
-            <i className="fas fa-receipt"></i>
-            <Link to="/users">
+            <Link to="/shopping-list">
+              <i className="fas fa-receipt"></i>
+            </Link>
+            <Link to="/customer">
               <i className="fas fa-users"></i>
             </Link>
           </div>
+        </div>
 
-          <div className="body-container">
-
-          </div>
-
-          <div className="navbar-container">
-            {/* <ul className="nav-menu">
-              <li className="nav-item">
-                <Link to="/" className="navbar-title">
-                  Courses
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/" className="nav-links">
+        <div className="body__container">
+          <div className="navbar__container">
+            <ul className="nav__menu">
+              <h1 className="nav__title">{titleName}</h1>
+              <li className="nav__item">
+                <Link to="/" className="nav__links">
                   Popolar
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/" className="nav-links">
+              <li className="nav__item">
+                <Link to="/" className="nav__links">
                   Favorite
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/" className="nav-links">
+              <li className="nav__item">
+                <Link to="/" className="nav__links">
                   New
                 </Link>
               </li>
-            </ul> */}
+            </ul>
           </div>
-
+          <div className="cards">
+            <div className="cards__item"></div>
+          </div>
         </div>
       </div>
     </>

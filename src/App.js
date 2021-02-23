@@ -5,8 +5,7 @@ import Navbar from "./Components/Navbar";
 function App({ children }) {
   return (
     <>
-      <Navbar />
-      {children}
+      <Navbar titleName={children} />
     </>
   );
 }

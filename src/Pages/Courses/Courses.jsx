@@ -4,7 +4,7 @@ import "./Courses.css";
 function Courses() {
   return (
     <div className = "container">
-      <h1>Courses</h1>
+      <h3>Courses</h3>
     </div>
   );
 }

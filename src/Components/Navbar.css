@@ -1,27 +1,29 @@
-.menu-container {
+.App {
+  display: flex;
+}
+.menu__container {
   width: 150px;
-  height: 900px;
-  background-color:#FFE4D6;
-  border-radius: 24px 0px 0px 0px;
+  height: 1700px;
+  background-color: #ffe4d6;
+  border: 3px solid black;
 }
 
-.menu-icons {
+.menu__icons {
   display: flex;
-  flex-direction: column;
   position: fixed;
   top: 0;
   left: 51px;
   bottom: 0;
- 
 }
 
 .fa-stream {
   width: 48px;
   height: 48px;
-  position: absolute;  
+  position: absolute;
   top: 120px;
   font-size: 40px;
   text-align: center;
+  color: initial;
 }
 
 .fa-receipt {
@@ -31,6 +33,7 @@
   top: 248px;
   font-size: 40px;
   text-align: center;
+  color: initial;
 }
 
 .fa-users {
@@ -40,45 +43,60 @@
   top: 376px;
   font-size: 40px;
   text-align: center;
+  color: initial;
 }
 
-.navbar-container {
+.body__container {
+  border: 3px solid red;
+  height: 1700px;
   width: 1290px;
 }
 
-/* .navbar-title {
-  font-size: 48px;
-  text-decoration: none;
-  color: black;
-  font-family: "Montserrat";
-  height: 50px;
-  margin-right: 400px;
-} */
+.navbar__container {
+  border: 3px solid black;
+  width: 1284px;
+  height: 195px;
+}
 
-.nav-menu {
+.nav__menu {
+  border: 3px solid red;
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  height: 75px;
-  width: 920px;
+  height: 189px;
+  width: 1098px;
+  margin-left: 90px;
 }
 
-.nav-item {
-  margin-left: 48px;
-  font-size: 24px;
+.nav__title {
+  position: absolute;
+  width: 191px;
+  height: 59px;
+  left: 248px;
+  top: 64px;
+
+  
+}
+
+.nav__item {
+  margin-left: 64px;
+  margin-top: 82px;
+
   font-family: "Montserrat";
+  font-style: normal;
   font-weight: bold;
-  margin-top: 26px;
+  font-size: 24px;
+  line-height: 26px;
+
 }
 
-.nav-links {
+.nav__links {
   text-decoration: none;
   color: #cbb1a2;
 }
-.menu-icons a {
-  text-decoration: none;
-  outline: none;
-  color: inherit;
-}
 
+.cards {
+  border: 3px solid green;
+  height: 1499px;
+}
 
