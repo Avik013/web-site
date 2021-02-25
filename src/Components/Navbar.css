@@ -2,9 +2,11 @@
   display: flex;
 }
 .menu__container {
-  /* border: 3px solid black; */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
   width: 150px;
-  height: 1700px;
   background-color: #ffe4d6;
 }
 
