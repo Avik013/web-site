@@ -1,4 +1,32 @@
+.shopping-list__container {
+  display: flex;
+
+  font-family: "Montserrat";
+  font-size: 24px;
+
+}
+
 .shopping-list__container h1 {
   margin-left: 240px;
   margin-top: 64px;
+  width: 280px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: #000000;
+}
+
+.shopping-list__container ul {
+  display: flex;
+  list-style: none;
+  margin-top: 82px;
+  margin-left: 408px;
+}
+
+.shopping-list__container ul li {
+  margin-left: 64px;
+  font-style: normal;
+  font-weight: bold;
+  color: #cbb1a2;
 }
