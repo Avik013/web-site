@@ -1,4 +1,35 @@
 .users__container {
+  display: flex;
+
+  font-family: "Montserrat";
+  font-size: 24px;
+}
+
+.users__container h1 {
   margin-left: 240px;
   margin-top: 64px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+
+  color: #000000;
+}
+
+.users__container ul {
+  display: flex;
+
+  list-style: none;
+
+  margin-top: 82px;
+  margin-left: 578px;
+}
+
+.users__container ul li {
+  margin-left: 64px;
+
+  font-style: normal;
+  font-weight: bold;
+  
+  color: #cbb1a2;
 }

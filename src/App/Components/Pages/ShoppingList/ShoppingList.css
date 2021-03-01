@@ -9,7 +9,6 @@
 .shopping-list__container h1 {
   margin-left: 240px;
   margin-top: 64px;
-  width: 280px;
 
   font-style: normal;
   font-weight: normal;
@@ -21,7 +20,7 @@
   display: flex;
   list-style: none;
   margin-top: 82px;
-  margin-left: 408px;
+  margin-left: 417px;
 }
 
 .shopping-list__container ul li {
