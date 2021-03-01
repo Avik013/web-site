@@ -1,0 +1,19 @@
+.courses__container {
+  display: flex;
+}
+
+.courses__container h1 {
+  margin-left: 240px;
+  margin-top: 64px;
+}
+
+.courses__container ul {
+  display: flex;
+  list-style: none;
+  margin-top: 82px;
+  margin-left: 533px;
+} 
+
+.courses__container li {
+ 
+}

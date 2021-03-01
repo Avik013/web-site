@@ -1,0 +1,53 @@
+.navbar-container {
+  background-color: #FFE4D6;
+  width: 150px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.navbar-items {
+  display: flex;
+  flex-direction: column;
+
+}
+ 
+/* Icons */
+
+.fa-th-list {
+  position: absolute;
+  top: 120px;
+  left: 51px;
+  right: 51px;
+  font-size: 40px;
+  /* width: 48px;
+  height: 48px; */
+  text-align: center;
+  color: initial;
+
+}
+
+.fa-clipboard-list {
+  position: absolute;
+  top: 248px;
+  left: 51px;
+  right: 51px;
+  font-size: 40px;
+  /* width: 48px;
+  height: 48px; */
+  text-align: center;
+  color: initial;
+}
+
+.fa-users {
+  position: absolute;
+  top: 378px;
+  left: 51px;
+  right: 51px;
+  /* width: 48px;
+  height: 48px; */
+  font-size: 40px;
+  text-align: center;
+  color: initial;
+}

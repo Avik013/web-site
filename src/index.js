@@ -1,27 +1,24 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
-// import Popular from "./Pages/Popular/Popular";
-import Courses from "./Pages/Courses/Courses";
-import Users from "./Pages/Customer/Customer";
-import ShopingList from  "./Pages/ShoppingList/ShoppingList";
-import "./index.css";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import App from "./App/App";
+import Courses from "./App/Components/Pages/Courses/Courses";
+import ShoppingList from "./App/Components/Pages/ShoppingList/ShoppingList";
+import Users from "./App/Components/Pages/Users/Users";
 
-import App from "./App";
+import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router>
       <App>
         <Switch>
-          {/* <Route path="/popular" component={Popular} /> */}
-          <Route path="/shopping-list" component={ShopingList} />
-          <Route path="/customer" component={Users} />
-          <Route path="/" component={Courses} />
-          
+          <Route exact path="/" component={Courses}/>
+          <Route path="/shopping-list" component={ShoppingList}/>
+          <Route path="/users" component={Users}/>
         </Switch>
       </App>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );
