@@ -5,12 +5,14 @@ import "./Courses.css";
 const Courses = () => {
   return (
     <div className="courses__container">
-      <h1>Courses</h1>
-      <ul>
-        <li>Popular</li>
-        <li>Favorite</li>
-        <li>News</li>
-      </ul>
+      <header>
+        <h1>Courses</h1>
+        <ul>
+          <li><span>Popular</span></li>
+          <li><span>Favorite</span></li>
+          <li><span>News</span></li>
+        </ul>
+      </header>
     </div>
   )
 }

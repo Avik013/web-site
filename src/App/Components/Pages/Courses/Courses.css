@@ -1,14 +1,22 @@
-.courses__container {
-  display: flex;
+.courses__container{
+  /* display: flex; */
+  /* justify-content: space-between; */
 
+  margin-left: 240px;
+  margin-top: 64px;
+  margin-right: 90px;
+  width: 1200px;
   font-family: "Montserrat";
   font-size: 24px;
 }
 
-.courses__container h1 {
-  margin-left: 240px;
-  margin-top: 64px;
+.courses__container header {
+  display: flex;
+  justify-content: space-between;
 
+}
+
+header h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -16,20 +24,27 @@
   color: #000000;
 }
 
-.courses__container ul {
+header ul {
   display: flex;
 
   list-style: none;
-
-  margin-top: 82px;
-  margin-left: 533px;
 }
 
-.courses__container ul li {
+header ul li {
   margin-left: 64px;
+  padding-top: 18px;
 
   font-style: normal;
   font-weight: bold;
-  
+
   color: #cbb1a2;
 }
+header ul li span {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+header ul li span:hover {
+  color: #6749A5;
+}
+
+

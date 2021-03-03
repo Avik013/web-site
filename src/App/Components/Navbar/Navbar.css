@@ -1,5 +1,5 @@
 .navbar-container {
-  background-color: #FFE4D6;
+  background-color: #ffe4d6;
   width: 150px;
   position: fixed;
   top: 0;
@@ -10,9 +10,8 @@
 .navbar-items {
   display: flex;
   flex-direction: column;
-
 }
- 
+
 /* Icons */
 
 .fa-th-list {
@@ -21,11 +20,8 @@
   left: 51px;
   right: 51px;
   font-size: 40px;
-  /* width: 48px;
-  height: 48px; */
   text-align: center;
   color: initial;
-
 }
 
 .fa-clipboard-list {
@@ -34,8 +30,6 @@
   left: 51px;
   right: 51px;
   font-size: 40px;
-  /* width: 48px;
-  height: 48px; */
   text-align: center;
   color: initial;
 }
@@ -45,8 +39,6 @@
   top: 378px;
   left: 51px;
   right: 51px;
-  /* width: 48px;
-  height: 48px; */
   font-size: 40px;
   text-align: center;
   color: initial;

@@ -1,14 +1,16 @@
 .users__container {
   display: flex;
+  justify-content: space-between;
 
+  margin-left: 240px;
+  margin-top: 64px;
+  margin-right: 90px;
+  width: 1200px;
   font-family: "Montserrat";
   font-size: 24px;
 }
 
 .users__container h1 {
-  margin-left: 240px;
-  margin-top: 64px;
-
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -20,16 +22,23 @@
   display: flex;
 
   list-style: none;
-
-  margin-top: 82px;
-  margin-left: 578px;
 }
 
 .users__container ul li {
   margin-left: 64px;
+  padding-top: 18px;
 
   font-style: normal;
   font-weight: bold;
-  
+
   color: #cbb1a2;
 }
+
+.users__container ul li span {
+  transition: all 0.5s;
+}
+.users__container ul li span:hover {
+  color: #6749A5;
+  cursor: pointer;
+}
+
