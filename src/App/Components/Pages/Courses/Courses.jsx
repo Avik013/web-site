@@ -26,6 +26,11 @@ const Courses = () => {
         <div className="play-icon">
           <i className="fas fa-play"></i>
         </div>
+
+
+
+
+        
       </section>
     </div>
   )
