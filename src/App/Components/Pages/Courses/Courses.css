@@ -1,7 +1,4 @@
 .courses__container{
-  /* display: flex; */
-  /* justify-content: space-between; */
-
   margin-left: 240px;
   margin-top: 64px;
   margin-right: 90px;
@@ -46,5 +43,51 @@ header ul li span {
 header ul li span:hover {
   color: #6749A5;
 }
+
+/* Section of Cards */
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1110px;
+  height: 446px;
+  font-family: "Montserrat";
+  margin-top: 84px;
+  background-image: url(../../../image/89c822bfe458b2c884848f4b7e489a37\ 1.png);
+}
+
+.cards__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.cards__titles h4 {
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.cards__titles p {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.video__min {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.play-icon {
+  margin: 40px;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.fa-play {
+  cursor: pointer;
+}
+
+
 
 

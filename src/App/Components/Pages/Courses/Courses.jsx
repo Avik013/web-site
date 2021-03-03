@@ -13,6 +13,20 @@ const Courses = () => {
           <li><span>News</span></li>
         </ul>
       </header>
+      <section>
+        <div className="cards__info">
+          <div className="cards__titles">
+            <h4>Illustration</h4>
+            <p>24 lessons</p>
+          </div>
+          <div className="video__min">
+            <h4>134 min</h4>
+          </div>
+        </div>
+        <div className="play-icon">
+          <i className="fas fa-play"></i>
+        </div>
+      </section>
     </div>
   )
 }
