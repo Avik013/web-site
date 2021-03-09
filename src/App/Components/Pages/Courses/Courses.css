@@ -52,7 +52,6 @@ header ul li span:hover {
   margin-top: 84px;
 }
 
-
 .cards__info {
   display: flex;
   justify-content: space-between;
@@ -95,13 +94,57 @@ header ul li span:hover {
   cursor: pointer;
 }
 
-@media all and (max-width: 740px) {
+/* Media Query */
+@media all and (max-width: 830px) {
   .courses__container {
-    margin-left: 240px;
-    margin-top: 64px;
-    margin-right: 90px;
-    max-width: 1200px;
-    font-family: "Montserrat";
+    margin-left: 121px;
+    margin-right: 21px;
+    max-width: 740px;
     font-size: 24px;
+  }
+
+  .courses__container header {
+    flex-direction: column;
+  }
+
+  .courses__container header ul {
+    margin-top: 18px;
+  }
+
+  .courses__container header ul li:first-child {
+    margin-left: 0px;
+  }
+
+  .courses__container header ul li {
+    margin-left: 35px;
+    padding-top: 18px;
+    font-style: normal;
+    font-weight: bold;
+    color: #cbb1a2;
+  }
+
+  .cards__section {
+    max-width: 700px;
+    height: 274px;
+    font-family: "Montserrat";
+    margin-top: 50px;
+  }
+
+  .cards__info {
+    width: 100%;
+    padding: 21px;
+  }
+  
+  .cards__titles p {
+    font-size: 14px;
+  }
+  
+  .video__min {
+    font-size: 16px;
+  }
+  
+  .play-icon {
+    margin: 35px;
+    font-size: 20px;
   }
 }

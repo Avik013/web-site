@@ -38,3 +38,33 @@ header ul li span {
 header ul li span:hover {
   color: #6749a5;
 }
+
+/* Media Query */
+@media all and (max-width: 830px) {
+  .shopping-list__container {
+    margin-left: 121px;
+    margin-right: 21px;
+    max-width: 740px;
+    font-size: 24px;
+  }
+
+  .shopping-list__container header {
+    flex-direction: column;
+  }
+
+  .shopping-list__container header ul {
+    margin-top: 18px;
+  }
+
+  .shopping-list__container header ul li:first-child {
+    margin-left: 0px;
+  }
+
+  .shopping-list__container header ul li {
+    margin-left: 35px;
+    padding-top: 18px;
+    font-style: normal;
+    font-weight: bold;
+    color: #cbb1a2;
+  }
+}

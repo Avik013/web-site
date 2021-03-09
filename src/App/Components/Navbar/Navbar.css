@@ -42,8 +42,7 @@
 }
 
 /* Media Query */
-
-@media all and (max-width: 740px) {
+@media all and (max-width: 830px) {
   .navbar-container {
     width: 100px;
   }
@@ -62,5 +61,4 @@
     right: 29px;
     font-size: 35px;
   }
-
 }
