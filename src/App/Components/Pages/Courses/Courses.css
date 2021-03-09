@@ -47,7 +47,7 @@ header ul li span:hover {
   justify-content: space-between;
   max-width: 1110px;
   position: relative;
-  max-height: 446px;
+  height: 446px;
   font-family: "Montserrat";
   margin-top: 84px;
 }
@@ -64,6 +64,7 @@ header ul li span:hover {
 .card_image {
   height: 100%;
   width: 100%;
+  border-radius: 30px;
   object-fit: cover;
 }
 

@@ -38,6 +38,25 @@ const Courses = () => {
           <i className="fas fa-play"></i>
         </div>
       </div>
+      <div className="cards__section">
+        <div className="cards__info">
+          <div className="cards__titles">
+            <h4>Graphic design</h4>
+            <p>30 lessons</p>
+          </div>
+          <div className="video__min">
+            <h4>236 min</h4>
+          </div>
+        </div>
+        <img
+          className="card_image"
+          src="/images/Why-you-should-choose-custom-modular-structures-for-permanent-and-portable-projects 1.png"
+          alt="card_img"
+        />
+        <div className="play-icon">
+          <i className="fas fa-play"></i>
+        </div>
+      </div>
     </div>
   );
 };
