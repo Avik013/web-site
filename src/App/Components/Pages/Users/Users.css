@@ -1,16 +1,18 @@
 .users__container {
-  display: flex;
-  justify-content: space-between;
-
   margin-left: 240px;
   margin-top: 64px;
   margin-right: 90px;
-  width: 1200px;
+  max-width: 1200px;
   font-family: "Montserrat";
   font-size: 24px;
 }
 
-.users__container h1 {
+.users__container header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -18,13 +20,13 @@
   color: #000000;
 }
 
-.users__container ul {
+header ul {
   display: flex;
 
   list-style: none;
 }
 
-.users__container ul li {
+header ul li {
   margin-left: 64px;
   padding-top: 18px;
 
@@ -34,10 +36,10 @@
   color: #cbb1a2;
 }
 
-.users__container ul li span {
+header ul li span {
   transition: all 0.5s;
 }
-.users__container ul li span:hover {
+header ul li span:hover {
   color: #6749A5;
   cursor: pointer;
 }
