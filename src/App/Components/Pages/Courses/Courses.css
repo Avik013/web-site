@@ -1,8 +1,8 @@
-.courses__container{
+.courses__container {
   margin-left: 240px;
   margin-top: 64px;
   margin-right: 90px;
-  width: 1200px;
+  max-width: 1110px;
   font-family: "Montserrat";
   font-size: 24px;
 }
@@ -10,30 +10,25 @@
 .courses__container header {
   display: flex;
   justify-content: space-between;
-
 }
 
 header h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
-
   color: #000000;
 }
 
 header ul {
   display: flex;
-
   list-style: none;
 }
 
 header ul li {
   margin-left: 64px;
   padding-top: 18px;
-
   font-style: normal;
   font-weight: bold;
-
   color: #cbb1a2;
 }
 header ul li span {
@@ -41,26 +36,35 @@ header ul li span {
   cursor: pointer;
 }
 header ul li span:hover {
-  color: #6749A5;
+  color: #6749a5;
 }
 
-/* Section of Cards */
+/* Div of Cards */
 
-section {
+.cards__section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 1110px;
-  height: 446px;
+  max-width: 1110px;
+  position: relative;
+  max-height: 446px;
   font-family: "Montserrat";
   margin-top: 84px;
-  background-image: url(../../../image/89c822bfe458b2c884848f4b7e489a37\ 1.png);
 }
+
 
 .cards__info {
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  width: 100%;
   padding: 40px;
+}
+
+.card_image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .cards__titles h4 {
@@ -80,6 +84,8 @@ section {
 
 .play-icon {
   margin: 40px;
+  position: absolute;
+  bottom: 0px;
   font-size: 40px;
   color: #ffffff;
 }
@@ -87,7 +93,3 @@ section {
 .fa-play {
   cursor: pointer;
 }
-
-
-
-
