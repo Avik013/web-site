@@ -94,3 +94,14 @@ header ul li span:hover {
 .fa-play {
   cursor: pointer;
 }
+
+@media all and (max-width: 740px) {
+  .courses__container {
+    margin-left: 240px;
+    margin-top: 64px;
+    margin-right: 90px;
+    max-width: 1200px;
+    font-family: "Montserrat";
+    font-size: 24px;
+  }
+}

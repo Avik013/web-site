@@ -5,7 +5,6 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [iconColorOfPage, setIconColorOfPage] = useState("/");
-  console.log(iconColorOfPage);
   
 
   return (

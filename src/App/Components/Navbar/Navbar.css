@@ -12,8 +12,8 @@
   flex-direction: column;
 }
 
-/* Icons */
 
+/* Icons */
 .fa-th-list {
   position: absolute;
   top: 120px;
@@ -39,4 +39,28 @@
   font-size: 40px;
   text-align: center;
   color: initial;
+}
+
+/* Media Query */
+
+@media all and (max-width: 740px) {
+  .navbar-container {
+    width: 100px;
+  }
+
+  .fa-th-list {
+    right: 34px;
+    font-size: 35px;
+  }
+  
+  .fa-clipboard-list {
+    right: 38px;
+    font-size: 35px;
+  }
+  
+  .fa-users {
+    right: 29px;
+    font-size: 35px;
+  }
+
 }
