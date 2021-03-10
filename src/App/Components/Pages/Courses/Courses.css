@@ -95,7 +95,7 @@ header ul li span:hover {
 }
 
 /* Media Query */
-@media all and (max-width: 830px) {
+@media all and (max-width: 812px) {
   .courses__container {
     margin-left: 121px;
     margin-right: 21px;

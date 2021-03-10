@@ -42,7 +42,7 @@
 }
 
 /* Media Query */
-@media all and (max-width: 830px) {
+@media all and (max-width: 812px) {
   .navbar-container {
     width: 100px;
   }
