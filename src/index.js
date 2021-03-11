@@ -6,8 +6,6 @@ import Courses from "./App/Components/Pages/Courses/Courses";
 import ShoppingList from "./App/Components/Pages/ShoppingList/ShoppingList";
 import Users from "./App/Components/Pages/Users/Users";
 
-// import Example from "./App/Example";
-
 import "./index.css";
 
 const routeAttributes = [
@@ -41,7 +39,6 @@ ReactDOM.render(
         </Switch>
       </App>
     </Router>
-    {/* <Example/> */}
   </React.StrictMode>,
   document.getElementById("root")
 );
