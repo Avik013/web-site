@@ -10,14 +10,17 @@ import "./index.css";
 
 const routeAttributes = [
   {
+    id: 0,
     path: "/",
     component: Courses
   },
   {
+    id: 1,
     path: "/shopping-list",
     component: ShoppingList
   },
   {
+    id: 2,
     path: "/users",
     component: Users
   }
@@ -28,10 +31,10 @@ ReactDOM.render(
     <Router>
       <App>
         <Switch>
-          {routeAttributes.map((item, index) => (
+          {routeAttributes.map(item => (
             <Route
               exact
-              key={item.path + "-" + index}
+              key={`${item}-${item.id}`}
               path={item.path}
               component={item.component}
             />
