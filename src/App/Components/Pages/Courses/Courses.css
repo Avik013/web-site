@@ -40,7 +40,6 @@ header ul li span:hover {
 }
 
 /* Div of Cards */
-
 .cards__section {
   display: flex;
   flex-direction: column;
