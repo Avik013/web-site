@@ -2,21 +2,32 @@ import React from "react";
 
 import "./ShoppingList.css";
 
+const nameOfSubtitles = [
+  {
+    id: 0,
+    name: "Popular"
+  },
+  {
+    id: 1,
+    name: "Favorite"
+  },
+  {
+    id: 2,
+    name: "News"
+  }
+];
+
 const ShoppingList = () => {
   return (
     <div className="shopping-list__container">
       <header>
         <h1>Shopping List</h1>
         <ul>
-          <li>
-            <span>Popular</span>
-          </li>
-          <li>
-            <span>Favorite</span>
-          </li>
-          <li>
-            <span>News</span>
-          </li>
+          {nameOfSubtitles.map(item => (
+            <li key={`${item}-${item.id}`}>
+              <span>{item.name}</span>
+            </li>
+          ))}
         </ul>
       </header>
     </div>
